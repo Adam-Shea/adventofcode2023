@@ -68,6 +68,8 @@ int main(void) {
       total += (((firstNumber - '0') * 10) + (lastNumber - '0'));
     }
   }
+
+  printf("%s", "2 - Sum of calibariont values : ");
   printf("%i\n", total);
   return 1;
 }

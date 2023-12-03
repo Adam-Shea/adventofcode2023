@@ -110,7 +110,10 @@ int main(void) {
     // Add sum
     totalSum += smallestRed * smallestBlue * smallestGreen;
   }
+
+  printf("%s", "Sum of valid ids  : ");
   printf("%i\n", totalGameNumbers);
+  printf("%s", "Sum of valid sets : ");
   printf("%i\n", totalSum);
   return 1;
 }
